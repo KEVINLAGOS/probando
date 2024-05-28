@@ -23,11 +23,11 @@ pool.getConnection((err, connection) => {
 router.get('/characters/:CharacterID?', (req, res, next) => {
     try{
         const characterID = req.params.CharacterID;
-        let sql = `SELECT * FROM Characters`;
+        let sql = `SELECT * FROM characters`;
         let params = [];
     
         if(characterID){
-            sql += ` WHERE CharacterID = ?`;
+            sql += ` WHERE characterID = ?`;
             params.push(characterID);
         }
         pool.execute(
