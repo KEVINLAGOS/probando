@@ -7,7 +7,7 @@ info:
   
   Repositorio: [nayaracasz/ternurines-API](https://github.com/nayaracasz/ternurines-API)'
 servers:
-  - url: https://ternurines-api-production.up.railway.app/
+  - url: https://probando-production-c7b9.up.railway.app/
 tags:
   name: Characters
   description: Sylvanian Families' characters
